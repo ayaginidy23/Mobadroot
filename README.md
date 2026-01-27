@@ -156,9 +156,9 @@ We welcome contributions to improve Mobadroot. Please fork the repository, creat
 
 ## Team Members
 
-Aya Tamer Ginidy 
-Abdulrahman Mohamed Eltahan 
-Ahmed Mohamed Dawood 
-George Nashaat Mesad
-Mohamed Talat Elslmawy 
+* Aya Tamer Ginidy 
+* Abdulrahman Mohamed Eltahan 
+* Ahmed Mohamed Dawood 
+* George Nashaat Mesad
+* Mohamed Talat Elslmawy 
 
