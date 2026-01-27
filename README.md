@@ -21,26 +21,27 @@
 
 ## Introduction
 
-In today's fast-moving startup landscape, entrepreneurs are under constant pressure to turn their ideas into structured, actionable strategies. However, many lack the time, resources, or expertise to develop detailed plans that address market needs and scalability. **Mobadroot** solves this by offering an AI-driven platform that enables users to generate clear, interactive, and exportable business strategies.Utilizing **Meta AI's LLaMA**, it combines smart workflows and visualizations to transform concepts into executable roadmaps.
+In today's fast-moving startup landscape, entrepreneurs are under constant pressure to turn their ideas into structured, actionable strategies. However, many lack the time, resources, or expertise to develop detailed plans that address market needs and scalability. 
+**Mobadroot** solves this by offering an AI-driven platform that enables users to generate clear, interactive, and exportable business strategies.Utilizing **Meta AI's LLaMA**, it combines smart workflows and visualizations to transform concepts into executable roadmaps.
 
 ## Problem Statement
 
 Early-stage startups often struggle to develop actionable strategies due to several factors:
-**Limited Expertise:** Founders may lack access to high-level consulting expertise.
-**Time Constraints:** Developing detailed plans manually is time-consuming.
-**Generic Tools:** Existing platforms provide static templates with no customization.
-**Lack of Visualization:** Current solutions often lack interactivity and visual clarity.
+* **Limited Expertise:** Founders may lack access to high-level consulting expertise.
+* **Time Constraints:** Developing detailed plans manually is time-consuming.
+* **Generic Tools:** Existing platforms provide static templates with no customization.
+* **Lack of Visualization:** Current solutions often lack interactivity and visual clarity.
 
 These barriers lead founders to spend too much time building subpar plans.Mobadroot eliminates these issues by offering AI-driven strategy generation that is fast, adaptive, and tailored to each startup's context.
 
 ## Project Objectives
 
 The primary objectives of the **Mobadroot** project are:
-To develop an AI tool that produces business strategies customized to each startup's stage and sector.
-To enable real-time generation of strategic content, including workflows and KPIs.
-To visualize strategy steps in intuitive diagrams for better understanding.
-To allow exporting strategies to **PDF** or **Notion** formats.
-To reduce planning time and eliminate dependence on expensive business consultants.
+* To develop an AI tool that produces business strategies customized to each startup's stage and sector.
+* To enable real-time generation of strategic content, including workflows and KPIs.
+* To visualize strategy steps in intuitive diagrams for better understanding.
+* To allow exporting strategies to **PDF** or **Notion** formats.
+* To reduce planning time and eliminate dependence on expensive business consultants.
 
 ## System Design
 
@@ -66,19 +67,19 @@ Supports exporting final strategies and visuals to formats like PDF and Notion f
 
 ## Key Features
 
-**AI-Generated Strategy Plans:** Created in real-time based on user input.
-**Workflow Visualization:** Automatically builds diagrams showing process flows.
-**KPI Suggestions:** Context-aware and industry-specific performance metrics.
-**Interactive Editing:** Enables users to update and personalize the output.
-**Multi-Format Exporting:** Outputs can be saved as PDFs or Notion documents.
+* **AI-Generated Strategy Plans:** Created in real-time based on user input.
+* **Workflow Visualization:** Automatically builds diagrams showing process flows.
+* **KPI Suggestions:** Context-aware and industry-specific performance metrics.
+* **Interactive Editing:** Enables users to update and personalize the output.
+* **Multi-Format Exporting:** Outputs can be saved as PDFs or Notion documents.
 
 ## Technologies Used
 
-**LLaMA (Meta AI):** Advanced open-source language model for text generation.
-**FastAPI:** Backend framework for managing API requests and logic.
-**React:** Frontend library for a fast, interactive User Interface.
-**Mermaid.js / diagrams.net:** Tools for generating visual workflow diagrams.
-**Prompt Engineering:** Modular prompts designed to support various industries.
+* **LLaMA (Meta AI):** Advanced open-source language model for text generation.
+* **FastAPI:** Backend framework for managing API requests and logic.
+* **React:** Frontend library for a fast, interactive User Interface.
+* **Mermaid.js / diagrams.net:** Tools for generating visual workflow diagrams.
+* **Prompt Engineering:** Modular prompts designed to support various industries.
 
 ## Installation
 
@@ -119,10 +120,10 @@ To run Mobadroot locally, follow these steps:
 
 ## Usage
 
-1.**Input Details:** Select your startup stage (e.g., Ideation, Growth) and Industry (e.g., Food, Tech).
-2.**Generate Strategy:** Click the "Generate" button.The AI will produce a text-based strategy and suggested KPIs.
-3.**Visualize:** The system will automatically render diagrams representing your business workflow.
-4.**Edit & Export:** Review the plan, make necessary edits, and export the final document to PDF or Notion.
+* **Input Details:** Select your startup stage (e.g., Ideation, Growth) and Industry (e.g., Food, Tech).
+* **Generate Strategy:** Click the "Generate" button.The AI will produce a text-based strategy and suggested KPIs.
+* **Visualize:** The system will automatically render diagrams representing your business workflow.
+* **Edit & Export:** Review the plan, make necessary edits, and export the final document to PDF or Notion.
 
 ## Challenges
 
