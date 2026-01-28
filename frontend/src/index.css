@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Arabic font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;700&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+/* Styles for PDF generation */
+@media print {
+  body {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: 'Noto Sans Arabic', sans-serif;
+  }
+  
+  #strategy-content {
+    padding: 24px;
+    max-width: 100%;
+  }
+
+  .pdf-header {
+    margin-bottom: 28px;
+    border-bottom: 1px solid #4B5563;
+    padding-bottom: 20px;
+  }
+
+  /* ... (keep your existing print styles) ... */
+
+  /* Enhance diagram printing */
+  .mermaid svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* Enhance dark mode support */
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17, 24, 39);
+  color: rgb(229, 231, 235);
+}
